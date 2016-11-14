@@ -1,0 +1,200 @@
+@import url(http://fonts.googleapis.com/css?family=Jacques+Francois);
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans);
+html,body,nav,h1,section,ul,li,a,img,p,label,input,textarea,dl,dd{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: Quattrocento,Sans,Jacques,Francois;
+}
+nav{
+	background: #30394d;
+	height:70px;
+	border-bottom:2px solid #242b3a;
+}
+#wrap{
+	height: 70px;
+	float: left;
+	margin-left: 10%;
+}
+#myname{
+	float: left;
+	text-decoration: none;
+	color: #fff;
+	font-size: 150%;
+	height:70px;
+	line-height: 70px;
+	margin-left: 10%;
+	padding-right: 100px;
+}
+ul{
+	height: 70px;
+	margin:0 auto;
+	display: inline-block;
+}
+li{
+	list-style: none;
+	height: 70px;
+	float: left;
+	margin:0 auto;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+li a{
+	display: block;
+	float: left;
+	width:120px;
+	height:70px;
+	line-height: 70px;
+	color:#fff;
+	text-align: center;
+	text-decoration: none;
+}
+#home{
+	background-color: #30394d;
+    width: 100%;
+	height:550px;
+	position: relative;
+
+}
+#slidergroup{
+	height:500px;
+	width:80%;
+	position: relative;
+	margin:0 auto;
+}
+#slider{
+	height: 400px;
+	width:700px;
+	margin:0px auto;
+	padding-top: 60px;
+}
+#leftarrow{
+	width:200px;
+	height:200px;
+	float: left;
+	position: absolute;
+	top:30%;
+	left: -5%;
+}
+#rightarrow{
+	width: 200px;
+	height: 200px;
+	float: right;
+	position: absolute;
+	top:30%;
+	right: -5%;
+}
+#home ul{
+	max-width: 100%;
+	width:1024px;
+	height:26px;
+	position: absolute;
+	left:50%;
+	top:92%;
+}
+#home ul li{
+	list-style: none;
+	float: left;
+	width:10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #fff;
+	margin-right: 10px;
+
+}
+#home .active{
+	background-color: #ff3d4e;
+}
+#about{
+	background-color: #fff;
+	text-align: center;
+	width: 100%;
+	height: 550px;
+}
+h1{
+	padding-top: 55px;
+	letter-spacing: 2px;
+}
+span{
+	font-weight: bold;
+	color: #fff;
+	font-size: 24px;
+	padding-right: 40px;
+}
+#about p{
+	width:80%;
+	height:150px;
+	margin:0 auto;
+	padding-top: 15px;
+	font-size:18px;
+}
+#first,#second,#third{
+	width:100%;
+	height: 100px;
+	line-height: 100px;
+}
+#first{
+	background-color: #0288d1;
+}
+
+#second{
+	background-color: #00e676;
+}
+#third{
+	background-color: #ffbc00;
+}
+#work{
+	background-color: #fff;
+	text-align: center;
+	height: 550px;
+}
+#thumbnail{
+	width:80%;
+	margin:0 auto;
+	padding-top: 40px;
+}
+#thumbnail img{
+	margin-left: 1px;
+	margin-bottom: 5px;
+}
+#work p,#work a{
+	text-decoration: none;
+	padding-top: 20px;
+}
+#contact{
+	background-color: #0288d1;
+	height: 550px;
+	text-align: center;
+	color:#fff;
+}
+label,input,textarea{
+	display: block;
+	width:30%;
+	height: 25px;
+	line-height: 25px;
+	margin:0 auto;
+}
+label{
+	text-align: left;
+	vertical-align: bottom;
+}
+input,textarea{
+	margin-bottom: 20px;
+}
+textarea{
+	height:100px;
+}
+form{
+	width:80%;
+	margin:0 auto;
+	padding-top: 30px;	
+}
+#submit{
+	width:12%;
+	margin-left: 53%;
+	background-color: #ff3d4e;
+	color:#fff;
+	font-size: 110%;
+	border:none;
+}
